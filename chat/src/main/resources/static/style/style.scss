@@ -1,0 +1,16 @@
+$base-color1: #0A0908;
+$base-color2: #22333B;
+$base-color3: #EAE0D5;
+$base-color4: #C6AC8F;
+$base-color5: #5E503F;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $base-color1;
+    font-family: 'Roboto', sans-serif;
+}

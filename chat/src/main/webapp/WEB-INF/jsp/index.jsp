@@ -16,9 +16,9 @@
     <div id="login-cont">
         <form action="/login" method="post">
             <label for="username">Username: </label>
-            <input type="text" name="username" placeholder="username">
+            <input type="text" name="username">
             <label for="password">Password: </label>
-            <input type="password" name="password" placeholder="password">
+            <input type="password" name="password" >
 
             <input type="submit" value="Login">
         </form>
@@ -26,13 +26,13 @@
     <div id="reg-cont">
         <form action="/register" method="post">
             <label for="username">Username: </label>
-            <input type="text" name="username" placeholder="username">
+            <input type="text" name="username" >
             <label for="password">Password: </label>
-            <input type="password" name="password" placeholder="password">
+            <input type="password" name="password" >
             <label for="password">Password: </label>
-            <input type="password" name="password2" placeholder="password">
+            <input type="password" name="password2">
             <label for="email">Email: </label>
-            <input type="email" name="email" placeholder="email">
+            <input type="email" name="email" >
 
             <input type="submit" value="Register">
         </form>

@@ -14,7 +14,7 @@ input {
   background-color: #22333B;
   color: #EAE0D5;
   border: none;
-  border-radius: 2px;
+  border-radius: 1vh;
   padding: 5px;
   box-shadow: #FFFFFF 0px 0px 10px;
 }
@@ -32,5 +32,41 @@ input {
 }
 #cont #MOTD p {
   text-align: center;
+  font-size: 4vh;
   margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+#cont #login-cont {
+  font-size: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cont #login-cont form {
+  width: 20vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5E503F;
+  border-radius: 5px;
+  box-shadow: #FFFFFF 0px 0px 10px;
+}
+#cont #login-cont form input {
+  height: 6vh;
+  width: 80%;
+  font-size: 5vh;
+  margin-bottom: 2vh;
+}
+#cont #login-cont form input[type=submit] {
+  margin-top: 7vh;
+  font-size: 4vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reg-cont {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

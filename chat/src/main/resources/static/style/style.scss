@@ -21,7 +21,7 @@ input{
     background-color: $base-color2;
     color: $base-color3;
     border: none;
-    border-radius: 2px;
+    border-radius: 1vh;
     padding: 5px;
     box-shadow: $white 0px 0px 10px;
 }
@@ -40,8 +40,48 @@ input{
         }
         p{
             text-align: center;
+            font-size: 4vh;
             margin-top: 2vh;
+            margin-bottom: 4vh;
         }
 
     }
+
+    #login-cont{
+        font-size: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        form{
+            width: 20vw;
+            height: 55vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $base-color5;
+            border-radius: 5px;
+            box-shadow: $white 0px 0px 10px;
+
+            input{
+                height: 6vh;
+                width: 80%;
+                font-size: 5vh;
+                margin-bottom: 2vh;
+            }
+
+            input[type="submit"]{
+                margin-top: 7vh;
+                font-size: 4vh;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+#reg-cont{
+    display: none;
 }

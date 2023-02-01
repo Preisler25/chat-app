@@ -8,11 +8,12 @@
     <script src="/script/app.js" defer></script>
 </head>
 <body>
-    <div>
+    <div id="cont">
+    <div id="MOTD">
         <h1>Üdv ez egy test project! Ami egy chat app</h1>
         <p>"${text}"</p>
     </div>
-    <div>
+    <div id="login-cont">
         <form action="/login" method="post">
             <label for="username">Username: </label>
             <input type="text" name="username" placeholder="username">
@@ -22,7 +23,7 @@
             <input type="submit" value="Login">
         </form>
     </div>
-    <div>
+    <div id="reg-cont">
         <form action="/register" method="post">
             <label for="username">Username: </label>
             <input type="text" name="username" placeholder="username">
@@ -36,4 +37,5 @@
             <input type="submit" value="Register">
         </form>
     </div>
+</div>
 </body>

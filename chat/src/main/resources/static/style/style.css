@@ -7,4 +7,21 @@
 body {
   background-color: #0A0908;
   font-family: "Roboto", sans-serif;
+  color: #EAE0D5;
+}
+
+input {
+  background-color: #22333B;
+  color: #EAE0D5;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  box-shadow: #FFFFFF 0px 0px 10px;
+}
+
+#cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

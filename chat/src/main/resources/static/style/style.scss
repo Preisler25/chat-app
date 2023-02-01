@@ -3,6 +3,7 @@ $base-color2: #22333B;
 $base-color3: #EAE0D5;
 $base-color4: #C6AC8F;
 $base-color5: #5E503F;
+$white: #FFFFFF;
 
 *{
     margin: 0;
@@ -13,4 +14,21 @@ $base-color5: #5E503F;
 body{
     background-color: $base-color1;
     font-family: 'Roboto', sans-serif;
+    color: $base-color3;
+}
+
+input{
+    background-color: $base-color2;
+    color: $base-color3;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    box-shadow: $white 0px 0px 10px;
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

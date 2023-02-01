@@ -27,8 +27,21 @@ input{
 }
 
 #cont{
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    #MOTD{
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            margin-top: 2vh;
+        }
+
+    }
 }

@@ -20,8 +20,17 @@ input {
 }
 
 #cont {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#cont #MOTD h1 {
+  text-align: center;
+}
+#cont #MOTD p {
+  text-align: center;
+  margin-top: 2vh;
 }/*# sourceMappingURL=style.css.map */

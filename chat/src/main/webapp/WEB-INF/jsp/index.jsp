@@ -22,6 +22,7 @@
 
             <input type="submit" value="Login">
         </form>
+        <div class="ch" onclick="Ch(true)">I don't have an account</div>
     </div>
     <div id="reg-cont">
         <form action="/register" method="post">
@@ -36,6 +37,7 @@
 
             <input type="submit" value="Register">
         </form>
+        <div class="ch" onclick="Ch(false)">I have an account</div>
     </div>
 </div>
 </body>

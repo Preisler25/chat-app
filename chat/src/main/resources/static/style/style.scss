@@ -31,10 +31,10 @@ input{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     #MOTD{
+        margin-top: 3vh;
         h1{
             text-align: center;
         }
@@ -47,7 +47,7 @@ input{
 
     }
 
-    #login-cont{
+    #reg-cont{
         font-size: 5vh;
         display: flex;
         flex-direction: column;
@@ -55,8 +55,8 @@ input{
         align-items: center;
 
         form{
-            width: 20vw;
-            height: 55vh;
+            width: 30vw;
+            height: 70vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -79,9 +79,46 @@ input{
                 cursor: pointer;
             }
         }
+    }
+
+    #login-cont{
+        font-size: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        form{
+            width: 30vw;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $base-color5;
+            border-radius: 5px;
+            box-shadow: $white 0px 0px 10px;
+
+            input{
+                height: 6vh;
+                width: 80%;
+                font-size: 5vh;
+                margin-bottom: 2vh;
+            }
+
+            input[type="submit"]{
+                margin-top: 30vh;
+                font-size: 4vh;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
         
     }
 }
-#reg-cont{
-    display: none;
+
+.ch{
+    margin-top: 2vh;
+    cursor: pointer;
+    color: $base-color2;
 }

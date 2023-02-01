@@ -24,8 +24,10 @@ input {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+#cont #MOTD {
+  margin-top: 3vh;
 }
 #cont #MOTD h1 {
   text-align: center;
@@ -36,6 +38,36 @@ input {
   margin-top: 2vh;
   margin-bottom: 4vh;
 }
+#cont #reg-cont {
+  font-size: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cont #reg-cont form {
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5E503F;
+  border-radius: 5px;
+  box-shadow: #FFFFFF 0px 0px 10px;
+}
+#cont #reg-cont form input {
+  height: 6vh;
+  width: 80%;
+  font-size: 5vh;
+  margin-bottom: 2vh;
+}
+#cont #reg-cont form input[type=submit] {
+  margin-top: 7vh;
+  font-size: 4vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
 #cont #login-cont {
   font-size: 5vh;
   display: flex;
@@ -44,8 +76,8 @@ input {
   align-items: center;
 }
 #cont #login-cont form {
-  width: 20vw;
-  height: 55vh;
+  width: 30vw;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,12 +93,14 @@ input {
   margin-bottom: 2vh;
 }
 #cont #login-cont form input[type=submit] {
-  margin-top: 7vh;
+  margin-top: 30vh;
   font-size: 4vh;
   border-radius: 5px;
   cursor: pointer;
 }
 
-#reg-cont {
-  display: none;
+.ch {
+  margin-top: 2vh;
+  cursor: pointer;
+  color: #22333B;
 }/*# sourceMappingURL=style.css.map */

@@ -21,7 +21,7 @@ public class AppController {
         String password = getData(temp, 1);
         String op = getData(temp, 2);
 
-        String query = ""
+        String query = "";
 
         //Redirecting the user to the /main page
         response.setStatus(HttpServletResponse.SC_MOVED_PERMANENTLY);

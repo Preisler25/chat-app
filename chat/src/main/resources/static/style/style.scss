@@ -36,11 +36,12 @@ input{
     #MOTD{
         margin-top: 3vh;
         h1{
+            font-size: 6vh;
             text-align: center;
         }
         p{
             text-align: center;
-            font-size: 4vh;
+            font-size: 3vh;
             margin-top: 2vh;
             margin-bottom: 4vh;
         }
@@ -121,4 +122,5 @@ input{
     margin-top: 2vh;
     cursor: pointer;
     color: $base-color2;
+    padding: 1vh;
 }

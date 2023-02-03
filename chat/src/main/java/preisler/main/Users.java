@@ -2,10 +2,14 @@ package preisler.main;
 
 import jakarta.persistence.*;
 
+@Entity
+@Table(name = "users")
 public class Users {
-    @Entity
-    @Table(name = "users")
-    public class User {
+
+        @Id
+        @Column(name = "id")
+        private int id;
+
         @Column(name = "username")
         private String username;
 
@@ -14,5 +18,5 @@ public class Users {
 
         @Column(name = "email")
         private String email;
-    }
+
 }
